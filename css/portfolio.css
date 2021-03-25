@@ -38,7 +38,7 @@ a {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts a {
   color: var(--text-color);
@@ -46,6 +46,10 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.contacts a:hover,
+.contacts:focus {
+  color: var(--accent-color);
 }
 /* main */
 /* button */
