@@ -62,7 +62,7 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
-.button {
+.hero-button {
   font-family: inherit;
   color: var(--main-title);
   background-color: var(--accent-color);
@@ -133,9 +133,9 @@ a {
   font-size: 16px;
   line-height: 1.6;
   color: var(--main-text-color);
+  background-color: var(--background-color);
 }
 .button.primary {
-  background-color: var(--background-color);
 }
 .button:hover {
   background-color: var(--accent-color);
