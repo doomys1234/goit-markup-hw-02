@@ -23,7 +23,7 @@ a {
   color: black;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
 }
 .accent-logo {
   color: var(--accent-color);
@@ -44,6 +44,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -52,7 +53,7 @@ a {
 .hero {
   background-color: var(--footer-color);
 }
-.title {
+.hero-title {
   color: var(--main-title);
   font-weight: 900;
   font-size: 44px;
@@ -117,10 +118,40 @@ a {
   color: var(--main-title);
   font-size: 14px;
   font-style: normal;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .list a {
   color: var(--footer-contacts);
   font-size: 14px;
   line-height: 1.71;
+}
+
+/* PORTFOLIO */
+.examples .button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--main-text-color);
+}
+.button.primary {
+  background-color: var(--background-color);
+}
+.button:hover {
+  background-color: var(--accent-color);
+  color: #ffff;
+  cursor: pointer;
+}
+.portfolio a {
+  color: var(--main-text-color);
+}
+.titles {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.description {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.8;
 }
